@@ -3,5 +3,5 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello {{ phrase }}"
+        msg: "Hello {{ name }}, your favourite T.V. show is {{ fav_tv_show }}"
 
